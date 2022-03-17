@@ -27,7 +27,7 @@ contract Token is ERC20, Ownable {
  mapping(address=>bool) private SELLALLOWANCE;
 
 
-    constructor (address _router) ERC20("MAP Protocol", "MAP") Ownable() {
+    constructor (address _router) ERC20("MeP Protocol", "MP") Ownable() {
 
         //mint some tokens for Admin, totalSupply will be increased accordingly [ERC20._mint]
         mint(msg.sender, 1000000 * ( 10 ** uint256(decimals())));
