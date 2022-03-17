@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "contracts/ERC20.sol";
-import "contracts/Ownable.sol";
+import "ERC20.sol";
+import "Ownable.sol";
 
 interface IPancakeswap_Router {
  function factory() external pure returns (address);
