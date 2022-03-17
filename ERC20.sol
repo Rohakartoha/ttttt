@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "contracts/IERC20.sol";
-import "contracts/IERC20Metadata.sol";
-import "contracts/Context.sol";
+import "IERC20.sol";
+import "IERC20Metadata.sol";
+import "Context.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
